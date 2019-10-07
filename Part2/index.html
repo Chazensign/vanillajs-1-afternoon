@@ -6,13 +6,17 @@
     <title>Styles</title>
     <link rel="stylesheet" href="./index.css" />
   </head>
-<body>
-  <header><h1>Poker Cards</h1></header>
+  <body>
+    <header><h1>Poker Cards</h1></header>
     <main>
-        <section><span>A</span><span>♦</span><span>A</span></section>
-        <section><span>A</span><span>♣</span><span>A</span></section>
-        <section><span>A</span><span>♥</span><span>A</span></section>
-        <section><span>A</span><span>♠</span><span>A</span></section>
+      <section id='diamonds'><span class='diamonds'>A</span><span>♦</span><span class='diamonds'>A</span></section>
+      <section id='clubs'><span class='clubs'>A</span><span>♣</span><span class='clubs'>A</span></section>
+      <section id='hearts'><span class='hearts'>A</span><span>♥</span><span class='hearts'>A</span></section>
+      <section id='spades'><span class='spades'>A</span><span>♠</span><span class='spades'>A</span></section>
     </main>
+    <input type='text' placeholder="Set ID" id='idInput'/>
+    <input type='text' placeholder="Set Suit" id='suitInput'/>
+    <button id='Submit' onclick="setCard()">Submit</button>
+    <script src='./index.js'></script>
 </body>
 </html>

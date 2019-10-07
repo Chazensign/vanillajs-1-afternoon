@@ -6,6 +6,7 @@
 
 body {
   background: #eee;
+  padding-bottom: 40px;
 }
 
 header {
@@ -37,6 +38,9 @@ section {
   padding: 1vh 1vw;
   font-size: 30px;
   margin: 15px;
+}
+button {
+  padding: 4px;
 }
 
 section span:nth-of-type(2) {
